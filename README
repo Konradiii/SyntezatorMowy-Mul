@@ -1,0 +1,23 @@
+SYNTEZATOR MOWY – ĆWICZENIE
+
+Autor: Konrad [Twoje nazwisko]
+
+Opis:
+Program realizuje prostą syntezę konkatenacyjną mowy na podstawie gotowych nagrań znajdujących się w folderach:
+- stacje
+- do_z_stacji
+- perony_i_tory
+
+Działanie:
+1. Użytkownik podaje tekst komunikatu.
+2. Program usuwa polskie znaki i zamienia tekst na format zgodny z nazwami plików.
+3. Program wyszukuje odpowiednie nagrania w katalogach.
+4. W przypadku braku nagrania wyświetlany jest komunikat o błędzie.
+5. Program wypisuje kolejność znalezionych plików wykorzystywanych do syntezy.
+
+Uruchomienie:
+Uruchomić klasę Main.java.
+
+Wymagania:
+- Java 17 lub nowsza.
+- Foldery z nagraniami muszą znajdować się w katalogu wskazanym w konstruktorze klasy Syntezator.
